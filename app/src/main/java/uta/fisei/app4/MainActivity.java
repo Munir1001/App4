@@ -29,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onActivityResult(ActivityResult result) {
                     if (result.getResultCode() == Activity.RESULT_OK){
-
+                        //obtener los datos regresados
+                        Intent data = result.getData();
+                        textViewMessage.setText(data.getDataString());
                     }
                 }
             });
