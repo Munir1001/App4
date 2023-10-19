@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 
 public class FirstActivity extends AppCompatActivity {
@@ -35,5 +36,12 @@ public class FirstActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        //return super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.menu_principal, menu);
+        return true;
     }
 }
