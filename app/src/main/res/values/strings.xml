@@ -30,4 +30,8 @@
     <string name="menu_file_call_phone">Realizar LLamada</string>
     <string name="menu_about">Acerca de</string>
 
+    <string name="menu_edit">Editar</string>
+    <string name="menu_edit_copy">Copiar</string>
+    <string name="menu_edit_cut">Cortar</string>
+    <string name="menu_edit_paste">Pegar</string>
 </resources>
