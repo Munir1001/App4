@@ -34,4 +34,13 @@
         android:layout_height="wrap_content"
         android:onClick="onclickShowMainActivity"
         android:text="@string/button_show_main_activity_text" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Name" />
 </LinearLayout>
